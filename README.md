@@ -1,4 +1,4 @@
-# Self-monitor
+# Self-monitor - Tela monitoramento selfscheckout verticais
 Painel de monitoramento de Self Checkouts via VNC.
 
 ## Funcionalidades
@@ -31,6 +31,7 @@ self-monitor
 
 └── README.md
 
+
 ## Como executar:
 
 1-Instale Python.
@@ -38,6 +39,14 @@ self-monitor
 2-Execute o arquivo:
 
 iniciar_self_monitor.bat
+
+## Login
+
+![Login](images/login.jpg)
+
+## Painel de Monitoramento
+
+![Painel](images/painel.jpeg)
 
 
 Autor
