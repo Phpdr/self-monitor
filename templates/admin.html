@@ -1,0 +1,141 @@
+<style>
+
+body{
+background:#0f0f0f;
+color:white;
+font-family:Arial;
+margin:0;
+}
+
+h1{
+padding:10px;
+margin:0;
+background:#1a1a1a;
+}
+
+.grid{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap:12px;
+padding:12px;
+}
+
+.self{
+background:#1a1a1a;
+border-radius:8px;
+overflow:hidden;
+display:flex;
+flex-direction:column;
+}
+
+.self-title{
+display:flex;
+justify-content:space-between;
+padding:6px 10px;
+font-size:14px;
+background:#222;
+}
+
+.vnc-container{
+width:100%;
+height:520px;
+background:#000;
+display:flex;
+justify-content:center;
+align-items:flex-start;
+overflow:hidden;
+position:relative;
+}
+
+.vnc-container iframe{
+position:absolute;
+top:0;
+left:50%;
+width:1080px;
+height:1920px;
+border:none;
+transform:translateX(-50%) scale(0.29);
+transform-origin:top center;
+}
+
+.top-bar{
+position:absolute;
+top:10px;
+right:20px;
+z-index:1000;
+}
+
+.logout-btn{
+background:#c0392b;
+color:white;
+padding:8px 16px;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+transition:0.2s;
+}
+
+.logout-btn:hover{
+background:#e74c3c;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Painel Self Checkouts</h1>
+
+<div class="top-bar">
+<a href="/logout" class="logout-btn">Sair</a>
+</div> 
+
+<div class="grid">
+
+<div class="self">
+<div class="self-title">Self 5</div>
+<div class="vnc-container">
+<iframe src="http://172.16.1.36:6080/vnc.html?autoconnect=true&password=consinco&resize=remote&reconnect=10&show_dot=true"></iframe>
+</div>
+</div>
+
+<div class="self">
+<div class="self-title">Self 6</div>
+<div class="vnc-container">
+<iframe src="http://172.16.1.36:6081/vnc.html?autoconnect=true&password=consinco&resize=remote&reconnect=10&show_dot=true"></iframe>
+</div>
+</div>
+
+<div class="self">
+<div class="self-title">Self 7</div>
+<div class="vnc-container">
+<iframe src="http://172.16.1.36:6082/vnc.html?autoconnect=true&password=consinco&resize=remote&reconnect=10&show_dot=true"></iframe>
+</div>
+</div>
+
+<div class="self">
+<div class="self-title">Self 8</div>
+<div class="vnc-container">
+<iframe src="http://172.16.1.36:6083/vnc.html?autoconnect=true&password=consinco&resize=remote&reconnect=10&show_dot=true"></iframe>
+</div>
+</div>
+
+<div class="self">
+<div class="self-title">Self 9</div>
+<div class="vnc-container">
+<iframe src="http://172.16.1.36:6084/vnc.html?autoconnect=true&password=consinco&resize=remote&reconnect=10&show_dot=true"></iframe>
+</div>
+</div>
+
+<div class="self">
+<div class="self-title">Self 10</div>
+<div class="vnc-container">
+<iframe src="http://172.16.1.36:6085/vnc.html?autoconnect=true&password=consinco&resize=remote&reconnect=10&show_dot=true"></iframe>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
