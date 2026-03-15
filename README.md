@@ -1,4 +1,4 @@
-# self-monitor
+# Self-monitor
 Painel de monitoramento de Self Checkouts via VNC.
 
 ## Funcionalidades
@@ -19,20 +19,26 @@ Painel de monitoramento de Self Checkouts via VNC.
 
 ## Estrutura do projeto:
 self-monitor
-│
+
+
 ├── novnc
+
 ├── templates
+
 ├── server.py
+
 ├── iniciar_self_monitor.bat
+
 └── README.md
 
-##Como executar:
+## Como executar:
 
 1-Instale Python.
+
 2-Execute o arquivo:
 
 iniciar_self_monitor.bat
 
 
 Autor
-##Phabrício Pedro Alves
+## Phabrício Pedro Alves - 22 anos - Técnólogo da Informação - Desenvolevdor Backend/Frontend.
