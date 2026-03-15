@@ -3,8 +3,8 @@ from flask import Flask, render_template, request, redirect, session
 app = Flask(__name__)
 app.secret_key = "monitor_self_secret"
 
-USERNAME = "selfbnv"
-PASSWORD = "@102030hm"
+USERNAME = ""
+PASSWORD = ""
 
 @app.route("/", methods=["GET","POST"])
 def login():
